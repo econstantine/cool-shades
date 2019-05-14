@@ -1,18 +1,9 @@
-/* body{
-
-} */
-
-.navbar
-{
-  opacity: 1;
-}
-
 .container
 {
   justify-content: space-between;
 }
 
-#abvfld
+#mster_fold
 {
   background-image: url('design-assets/hero.jpg');
   background-position: center;
@@ -22,7 +13,7 @@
 
 #abvfld_left
 {
-  max-width: 20%;
+  max-width: 30%;
   /* justify-content: center; */
   height: 600px;
 }
@@ -31,7 +22,8 @@
 {
   font-style: italic;
   font-weight: bolder;
-  font-size: 24;
+  font-size: 28px;
+  color: white;
 }
 
 #aboveFold-Text
