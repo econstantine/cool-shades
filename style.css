@@ -1,0 +1,25 @@
+body{
+   background-image: url("design-assets/hero.jpg");
+   background-size: cover;
+}
+
+.navbar
+{
+opacity: 1;
+}
+
+/* navbar-nav
+{
+  float: right;
+  -webkit-align-content: right;
+  opacity: 0;
+}
+.navbar
+{
+align-items: right;
+} */
+
+/* .collapse
+{
+   float: right;
+} */
