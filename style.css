@@ -12,12 +12,12 @@
   justify-content: space-between;
 }
 
-.aboveFold
+#abvfld
 {
   background-image: url('design-assets/hero.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 #abvfld_left
