@@ -1,25 +1,40 @@
-body{
-   background-image: url("design-assets/hero.jpg");
-   background-size: cover;
-}
+/* body{
+
+} */
 
 .navbar
 {
-opacity: 1;
+  opacity: 1;
 }
 
-/* navbar-nav
+.container
 {
-  float: right;
-  -webkit-align-content: right;
-  opacity: 0;
+  justify-content: space-between;
 }
-.navbar
-{
-align-items: right;
-} */
 
-/* .collapse
+.aboveFold
 {
-   float: right;
-} */
+  background-image: url('design-assets/hero.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#abvfld_left
+{
+  max-width: 20%;
+  /* justify-content: center; */
+  height: 600px;
+}
+
+#audioSunglasses
+{
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 24;
+}
+
+#aboveFold-Text
+{
+  color: black;
+}
