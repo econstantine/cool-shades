@@ -3,19 +3,26 @@
   justify-content: space-between;
 }
 
+.nav-link
+{
+  color: #FFFFFF !important;
+  font-weight: bold;
+}
+
 #mster_fold
 {
   background-image: url('design-assets/hero.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #abvfld_left
 {
   max-width: 30%;
-  /* justify-content: center; */
   height: 600px;
+  color: white;
 }
 
 #audioSunglasses
@@ -26,7 +33,7 @@
   color: white;
 }
 
-#aboveFold-Text
+.cta
 {
-  color: black;
+  color: white;
 }
