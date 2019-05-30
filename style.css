@@ -1,6 +1,36 @@
+/*
+===============================================================================================
+Component:  style.CSS
+Purpose:    To be used with the cool-shades website. Could potentially override bootstrap styles
+Structure:  1) Class styles 2) ID styles. Both by alphabetical Order
+Programmer: Ed Constantine
+===============================================================================================
+*/
+/*  ===== STYLES BY CLASS  ===== */
 .container
 {
-  justify-content: space-between;
+    /* justify-content: space-between; */
+}
+
+.handsfree_container
+{
+    /* justify-content: space-between; */
+}
+
+.cta
+{
+  color: white;
+}
+
+.fys_cols
+{
+    text-align: center;
+}
+
+.price
+{
+    font-weight: bold;
+    font-size: 18;
 }
 
 .nav-link
@@ -9,14 +39,21 @@
   font-weight: bold;
 }
 
-#mster_fold
+.ig-logo
 {
-  background-image: url('design-assets/hero.jpg');
-  -webkit-background-size: contain;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    left: 15px;
+    bottom: 15px;
+    width: 10%;
+    position: absolute;
 }
+
+a:link
+{
+    color:red;
+
+}
+
+/*  ===== STYLES BY ID  ===== */
 
 #abvfld_left
 {
@@ -33,7 +70,22 @@
   color: white;
 }
 
-.cta
+#mster_fold
 {
-  color: white;
+  background-image: url('img/hero.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
+/* #img_container
+{
+    background-image: url('design-assets/cta-sunglasses.jpg');
+    -webkit-background-size: contain;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */

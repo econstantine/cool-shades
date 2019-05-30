@@ -14,16 +14,16 @@
   <body>
 
     <!-- Above the Fold -->
-    <div class="container" id="mster_fold">
+    <div class="container-fluid mx-0 h-100" id="mster_fold">
 
         <!-- NAVIGATION BAR  -->
         <nav class="navbar navbar-expand-lg navbar-transparent mx-md-5 mt-md-3">
 
           <div class="logo">
             <div>
-              <a class="navbar-brand" href="#"><img src="design-assets/logo--rock-n-stroll.png" width="300px"/></a>
+              <a class="navbar-brand" href="#"><img src="img/logo--rock-n-stroll.png" width="300px"/></a>
               <div>
-                by <img src="design-assets/logo--peppers-black-sm.png" width="75px"/>
+                by <img src="img/logo--peppers-black-sm.png" width="75px"/>
               </div>
             </div>
 
@@ -53,30 +53,118 @@
         <!-- END NAVIGATION BAR  -->
 
         <!-- ABOVE THE FOLD MAIN BODY -->
-        <div class="container mx-md-5 py-5 mt-3" id="abvfld"> <!--align-self-stretch vw-100 -->
-          <div class="row">
-
-            <div class="col-4 align-self-center cta" id="abvfld_left">
-              <h2 id="audioSunglasses">Audio Sunglasses</h2>
-              <p id="aboveFold-Text">Hit the slopes or Ride your bike without wearing earbuds.</p>
-              <button button type="button" class="btn btn-danger">Shop Now</button>
+        <div class="bod mx-md-5 py-5 mt-3" id="abvfld"> <!--align-self-stretch vw-100 -->
+            <div class="row">
+                <div class="col-4 align-self-center cta" id="abvfld_left">
+                  <h2 id="audioSunglasses">Audio Sunglasses</h2>
+                  <p id="aboveFold-Text">Hit the slopes or Ride your bike without wearing earbuds.</p>
+                  <button button type="button" class="btn btn-danger">Shop Now</button>
+                </div>
             </div>
-
-            <!-- <div class="col-8 align-self-center mx-auto"></div> -->
         </div>
         <!-- END - ABOVE THE FOLD MAIN BODY -->
 
     </div>
     <!-- END - Above the Fold -->
 
-
-
     <!-- MAIN PAGE - PART 2 -->
-    <div class="container" id="part2">
-
+    <div class="container-fluid handsfree_container mx-md-5 mt-md-3" id="handsfree">
+        <div class="row">
+            <div class="col-4 align-self-center">
+                <h2>Hands free</h2>
+                <p>Play music, answer calls & turn by turn navigation streamed through your shades</p>
+                <button button type="button" class="btn btn-danger" name="button">Explore Features</button>
+            </div>
+            <div class="col-8 align-self-center" id="img_container">
+                <img class="img-fluid" src="img/cta-sunglasses.jpg">
+            </div>
+        </div>
     </div>
     <!-- END - MAIN PAGE - PART 2 -->
 
+    <!-- PART 3 - Instagram -->
+    <div class="container-fluid instagram-container mx-md-5 mt-md-3">
+        <div class="row">
+                <div class="col pl-0 align-self-center">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="img/instagram-1.jpg">
+                        <img class="ig-logo" src="img/instagram-logo.png">
+                    </div>
+                </div>
+                <div class="col pr-0 align-self-center">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="img/instagram-2.jpg">
+                        <img class="ig-logo" src="img/instagram-logo.png">
+                    </div>
+                </div>
+        </div>
+
+    </div>
+    <!-- END - PART 3  -->
+
+    <!-- PART 4 - Find your style -->
+    <div class="container-fluid  mx-md-5 mt-md-3">
+        <div class="row">
+            <div class="row mt-3">
+                <h1 class="font-italic md-b-5" id="findyourstyleID">Find your Style</h1>
+            </div>
+            <div class="row  mt-5">
+                <div class="fys_cols col-3 mx-auto">
+                    <img class="img-fluid" src="img/product-red.png" alt="">
+                    <div>Rock-N-Stroll</div>
+                    <h2 class="font-italic">RED</h2>
+                    <br>
+                    <p class="price">$199.99</p>
+                    <button button type="button" class="btn btn-danger" name="button">Add to Cart</button>
+                </div>
+                <div class="fys_cols col-3 mx-auto">
+                    <img class="img-fluid" src="img/product-green.jpg" alt="">
+                    <div>Rock-N-Stroll</div>
+                    <h2 class="font-italic">GREEN</h2>
+                    <br>
+                    <p class="price">$199.99</p>
+                    <button button type="button" class="btn btn-danger" name="button">Add to Cart</button>
+                </div>
+                <div class="fys_cols col-3 mx-auto">
+                    <img class="img-fluid" src="img/product-blue.jpg" alt="">
+                    <div>Rock-N-Stroll</div>
+                    <h2 class="font-italic">BLUE</h2>
+                    <br>
+                    <p class="price">$199.99</p>
+                    <button button type="button" class="btn btn-danger" name="button">Add to Cart</button>
+                </div>
+                <div class="fys_cols col-3 mx-auto">
+                    <img class="img-fluid" src="img/product-black.jpg" alt="">
+                    <div>Rock-N-Stroll</div>
+                    <h2 class="font-italic">BLACK</h2>
+                    <br>
+                    <p class="price">$199.99</p>
+                    <button button type="button" class="btn btn-danger" name="button">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END PART 4  -->
+
+    <!--PART 5 - Functional Spec  -->
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-6 align-self-center">
+                <h1>Bone Conduction Audio</h1>
+                <!-- <br> -->
+                <p>Sounds are converted to vibrations and passed directly to the auditory nerve bones.</p>
+                <a href="http://wwww.google.com">Learn More</a>
+            </div>
+            <div class="col-6">
+                <img class="img-fluid" src="img/bone-conduction.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!--PART 5 - Functional Spec  -->
+
+<!-- NEED MARGIN HERE -->
+<!-- PART 6 - Features   -->
+<!--  -->
 
 
     <!-- Optional JavaScript -->
