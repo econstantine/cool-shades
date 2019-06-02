@@ -6,86 +6,113 @@ Structure:  1) Class styles 2) ID styles. Both by alphabetical Order
 Programmer: Ed Constantine
 ===============================================================================================
 */
+
+/*  ===== STYLES BY ELEMENT ===== */
+
+    h1
+    {
+        font-style: italic;
+        font-size: 3em;
+        font-weight: bold;
+    }
+
+    p
+    {
+        font-size: 2em;
+    }
+
 /*  ===== STYLES BY CLASS  ===== */
-.container
-{
-    /* justify-content: space-between; */
-}
 
-.handsfree_container
-{
-    /* justify-content: space-between; */
-}
+    /* .container
+    { */
+        /* justify-content: space-between; */
+    /* } */
 
-.cta
-{
-  color: white;
-}
+    /* .handsfree_container
+    { */
+        /* justify-content: space-between; */
+    /* } */
 
-.fys_cols
-{
-    text-align: center;
-}
+    .glassesbackground
+    {
+        background-color: #F2F2F2;
+    }
 
-.price
-{
-    font-weight: bold;
-    font-size: 18;
-}
+    .brand_name
+    {
+        font-size: 18px;
+        font-weight:400;
+    }
 
-.nav-link
-{
-  color: #FFFFFF !important;
-  font-weight: bold;
-}
+    .cta
+    {
+      color: white;
+    }
 
-.ig-logo
-{
-    left: 15px;
-    bottom: 15px;
-    width: 10%;
-    position: absolute;
-}
+    .fys_cols
+    {
+        text-align: center;
+    }
 
-a:link
-{
-    color:red;
+    .price
+    {
+        font-weight: bold;
+        font-size: 18;
+    }
 
-}
+    .nav-link
+    {
+      color: #FFFFFF !important;
+      font-weight: bold;
+    }
+
+    .ig-logo
+    {
+        left: 15px;
+        bottom: 15px;
+        width: 10%;
+        position: absolute;
+    }
+
+    a:link
+    {
+        color:red;
+
+    }
 
 /*  ===== STYLES BY ID  ===== */
 
-#abvfld_left
-{
-  max-width: 30%;
-  height: 600px;
-  color: white;
-}
+    #abvfld_left
+    {
+      max-width: 30%;
+      height: 600px;
+      color: white;
+    }
 
-#audioSunglasses
-{
-  font-style: italic;
-  font-weight: bolder;
-  font-size: 28px;
-  color: white;
-}
+    #audioSunglasses
+    {
+      font-style: italic;
+      font-weight: bolder;
+      font-size: 28px;
+      color: white;
+    }
 
-#mster_fold
-{
-  background-image: url('img/hero.jpg');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+    #mster_fold
+    {
+      background-image: url('img/hero.jpg');
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
 
-/* #img_container
-{
-    background-image: url('design-assets/cta-sunglasses.jpg');
-    -webkit-background-size: contain;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-} */
+    /* #img_container
+    {
+        background-image: url('design-assets/cta-sunglasses.jpg');
+        -webkit-background-size: contain;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+    } */
